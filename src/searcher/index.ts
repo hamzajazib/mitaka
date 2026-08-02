@@ -23,14 +23,12 @@ import {
   InQuest,
   Intezer,
   IPinfo,
-  IPIP,
   JoeSandbox,
   Maltiverse,
   MalwareBazaar,
   MITRE,
   NVD,
   OCCRP,
-  ONYPHE,
   OpenTIP,
   OTX,
   Pulsedive,
@@ -82,13 +80,11 @@ export { HybridAnalysis } from './hybridanalysis'
 export { InQuest } from './inquest'
 export { Intezer } from './intezer'
 export { IPinfo } from './ipinfo'
-export { IPIP } from './ipip'
 export { JoeSandbox } from './joesandbox'
 export { Maltiverse } from './maltiverse'
 export { MalwareBazaar } from './malwarebazaar'
 export { NVD } from './nvd'
 export { OCCRP } from './occrp'
-export { ONYPHE } from './onyphe'
 export { OpenTIP } from './opentip'
 export { OTX } from './otx'
 export { Pulsedive } from './pulsedive'
@@ -138,14 +134,12 @@ export const Searchers: Searcher[] = [
   new InQuest(),
   new Intezer(),
   new IPinfo(),
-  new IPIP(),
   new JoeSandbox(),
   new Maltiverse(),
   new MalwareBazaar(),
   new MITRE(),
   new NVD(),
   new OCCRP(),
-  new ONYPHE(),
   new OpenTIP(),
   new OTX(),
   new Pulsedive(),
